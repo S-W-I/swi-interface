@@ -1,4 +1,4 @@
-const defaultTheme = require('tailwindcss/defaultTheme');
+const defaultTheme = require('tailwindcss/defaultTheme')
 
 module.exports = {
   mode: 'jit',
@@ -14,11 +14,23 @@ module.exports = {
       fontFamily: {
         sans: ['Roboto', ...defaultTheme.fontFamily.sans],
       },
+      fontSize: {
+        sm: ['16px'],
+        base: ['18px'],
+        lg: ['28px'],
+        xl: ['62px'],
+      },
+      backgroundImage: {
+        'btn-landing':
+          'linear-gradient(94.63deg, #B014CA 2.93%, #1F81CF 95.02%);',
+        section:
+          'linear-gradient(358.72deg, rgba(18, 20, 28, 0) -34.17%, #12141C 46.42%, rgba(18, 20, 28, 0) 133.93%);',
+        footer:
+          'linear-gradient(359.36deg, #9568E0 -77.14%, rgba(18, 20, 28, 0) 96.47%)',
+      },
     },
   },
-
 }
-
 
 // const defaultTheme = require('tailwindcss/defaultTheme');
 //
