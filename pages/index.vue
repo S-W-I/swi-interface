@@ -24,7 +24,8 @@
         </nuxt-link>
 
         <nuxt-link
-          to="#"
+          to="https://app.swi.systems"
+          target="_blank"
           class="
             ml-auto
             py-[11px]
@@ -80,7 +81,7 @@
                 md:leading-[53px]
               "
             >
-              Smart Web IDE
+              Solana Web IDE
               <span
                 class="
                   block
@@ -146,42 +147,16 @@
               <div class="flex flex-col xl:flex-row">
                 <div class="xl:max-w-[543px] w-[100%] flex-shrink-0">
                   <p class="mb-[58px] md:mb-[47px] xl:mb-[39px] leading-[32px]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy tandard dummy has bee
+                    SWI deploys distinct file system for each user session. User
+                    can edit files and interact with
                   </p>
-
-                  <ul class="flex m-[-8px]">
-                    <li class="p-[8px]">
-                      <span class="block mb-[8px] font-semibold leading-[22px]">
-                        Lorem ipsum
-                      </span>
-                      <span class="block text-[14px] leading-[17px]">
-                        <strong class="font-medium">SWI</strong>
-                        lets you build complex programs on Rust.
-                      </span>
-                    </li>
-                    <li class="p-[8px]">
-                      <span class="block mb-[8px] font-semibold leading-[22px]">
-                        Lorem ipsum dei
-                      </span>
-                      <span class="block text-[14px] leading-[17px]">
-                        It compiles it and allows to download built prpgrams.
-                      </span>
-                    </li>
-                  </ul>
                 </div>
 
                 <div class="mt-[58px] md:mt-[50px] xl:mt-0 xl:ml-[155px]">
                   <p class="leading-[32px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehenderit in voluptate vel esse
-                    cillum dolore eu fugiat nulla pariatur. Excepteur sint
-                    occaecat cupidatat non proident, sunt in culpa qui officia
-                    deserunt mollit anim id est laborum.
+                    SWI is a browser-based integrated development environment
+                    for the Solana blockchain that allows the development and
+                    deployment of smart contracts.
                   </p>
                 </div>
               </div>
@@ -221,10 +196,10 @@
                         leading-[29px]
                       "
                     >
-                      30
+                      Immutability
                     </span>
                     <span class="block text-sm leading-[19px]">
-                      SWI lets you build complex programs on Rust.
+                      A filesystem with immutable structure.
                     </span>
                   </li>
                   <li
@@ -242,10 +217,10 @@
                         leading-[29px]
                       "
                     >
-                      54.543
+                      Validation
                     </span>
                     <span class="block text-sm leading-[19px]">
-                      It compiles it and allows to download built prpgrams
+                      Error highlighting.
                     </span>
                   </li>
                   <li
@@ -263,10 +238,10 @@
                         leading-[29px]
                       "
                     >
-                      30
+                      Template
                     </span>
                     <span class="block text-sm leading-[19px]">
-                      Lorem ipsum dolor sit amet, consectetur adipiscing elit.
+                      Initial template based on solana-helloworld.
                     </span>
                   </li>
                   <li
@@ -284,10 +259,10 @@
                         leading-[29px]
                       "
                     >
-                      54.543
+                      Dependencies
                     </span>
                     <span class="block text-sm leading-[19px]">
-                      Duis aute irure
+                      Lets you include dependencies from crates.io
                     </span>
                   </li>
                 </ul>
@@ -323,7 +298,7 @@
                         alt=""
                         class="flex-shrink-0 mr-[23px]"
                       />
-                      Testing facility Go/Tust inside
+                      Testing facility Go/Rust inside
                     </li>
                     <li class="flex items-center py-[13px] leading-[39px]">
                       <img
@@ -360,7 +335,7 @@
                         alt=""
                         class="flex-shrink-0 mr-[23px]"
                       />
-                      Testing facility Go
+                      Anchor integration
                     </li>
                     <li class="flex items-center py-[13px] leading-[39px]">
                       <img
@@ -368,7 +343,7 @@
                         alt=""
                         class="flex-shrink-0 mr-[23px]"
                       />
-                      One-click contract
+                      Optimized user session handling
                     </li>
                   </ul>
                 </div>
@@ -451,28 +426,33 @@
             "
           >
             <div class="container">
-              <h2 class="mb-[50px] text-lg font-semibold">Lorem Ipsum</h2>
+              <h2 class="mb-[50px] text-lg font-semibold">Challenges we've run into</h2>
 
               <div class="flex flex-col xl:flex-row">
                 <div class="xl:max-w-[519px]">
                   <p class="leading-[32px]">
-                    Lorem Ipsum is simply dummy text of the printing and
-                    typesetting industry. Lorem Ipsum has been the industry's
-                    standard dummy. Lorem ipsum dolor sit amet, consectetur
-                    adipiscing elit, sed do eiusmod tempor incididunt ut labore
-                    et dolore magna aliqua. Ut enim ad minim veniam, quis
-                    nostrud exercitation ullamco laboris nisi ut aliquip
+                    Solana blockchain capabilities can fulfill the aims of any
+                    dApp. But the main obstacle on the way for any new
+                    developer, joining the Solana ecosystem, is the complexity
+                    of development and deployment.
+                    <br />
+                    <br />
+                    That was the first problem we faced, which incentivized us
+                    to create SWI. At this moment, there are no existing IDEs
+                    for Solana, so SWI is a pioneer in this space.
                   </p>
                 </div>
 
                 <div class="mt-[29px] xl:mt-0 xl:ml-[179px]">
                   <p class="leading-[32px]">
-                    Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
-                    do eiusmod tempor incididunt ut labore et dolore magna
-                    aliqua. Ut enim ad minim veniam, quis nostrud exercitation
-                    ullamco laboris nisi ut aliquip ex ea commodo consequat.
-                    Duis aute irure dolor in reprehen non proident, sunt in
-                    culpa qui officia deserunt mollit anim id est laborum.
+                    Our personal development experience shows how important it
+                    is to have handy tools for deploying solutions fast in order
+                    to remain competitive in the crypto market.
+                    <br />
+                    <br />
+                    We believe that Solana, arguably the best technological
+                    solution in the space, should also lead in adopting the best
+                    practices of development.
                   </p>
                 </div>
               </div>
@@ -497,7 +477,7 @@
                     uppercase
                   "
                 >
-                  Lorem ipsummore
+                  Stay tuned
                 </p>
                 <h2
                   class="text-center text-[32px] font-semibold leading-[39px]"
@@ -527,27 +507,50 @@
               <nav>
                 <ul class="flex flex-wrap mx-[-10px] md:mx-[-14px]">
                   <li class="mx-[10px] md:mx-[14px]">
-                    <nuxt-link to="#" class="text-sm leading-[19px] underline">
+                    <a href="#" class="text-sm leading-[19px] underline">
                       Home
-                    </nuxt-link>
+                    </a>
                   </li>
-                  <li class="mx-[10px] md:mx-[14px]">
+                  <!-- <li class="mx-[10px] md:mx-[14px]">
                     <nuxt-link to="#" class="text-sm leading-[19px] underline">
                       Docs
                     </nuxt-link>
+                  </li> -->
+                  <li class="mx-[10px] md:mx-[14px]">
+                    <a
+                      href="https://github.com/S-W-I"
+                      target="_blank"
+                      class="text-sm leading-[19px] underline"
+                    >
+                      Source Code
+                    </a>
                   </li>
                   <li class="mx-[10px] md:mx-[14px]">
-                    <nuxt-link to="#" class="text-sm leading-[19px] underline">
+                    <a
+                      href="https://www.dropbox.com/s/i7pd4voamislyup/Solana%20Web%20IDE_2%402x.png"
+                      target="_blank"
+                      class="text-sm leading-[19px] underline"
+                    >
+                      Roadmap
+                    </a>
+                  </li>
+                  <li class="mx-[10px] md:mx-[14px]">
+                    <a
+                      href="https://app.swi.systems"
+                      target="_blank"
+                      class="text-sm leading-[19px] underline"
+                    >
                       App
-                    </nuxt-link>
+                    </a>
                   </li>
                 </ul>
               </nav>
 
               <ul class="flex mt-[29px] mx-[-4px] md:mt-0">
                 <li class="mx-[4px]">
-                  <nuxt-link
-                    to="#"
+                  <a
+                    target="_blank"
+                    href="https://twitter.com/SolanaWebIDE"
                     class="
                       flex
                       justify-center
@@ -563,11 +566,12 @@
                       class="fill-[#B014CA] w-[16px] h-[16px]"
                       custom-size
                     />
-                  </nuxt-link>
+                  </a>
                 </li>
                 <li class="mx-[4px]">
-                  <nuxt-link
-                    to="#"
+                  <a
+                    href="https://t.me/solanaide"
+                    target="_blank"
                     class="
                       flex
                       justify-center
@@ -583,7 +587,7 @@
                       class="fill-[#B014CA] w-[16px] h-[16px]"
                       custom-size
                     />
-                  </nuxt-link>
+                  </a>
                 </li>
               </ul>
             </div>
