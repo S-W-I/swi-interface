@@ -6,28 +6,29 @@ export default {
   head: {
     title: 'SWI - First Solana Web IDE',
     htmlAttrs: {
-      lang: "en-US"
+      lang: 'en-US',
     },
     meta: [
       { charset: 'utf-8' },
       { name: 'viewport', content: 'width=device-width, initial-scale=1' },
-      { hid: 'description', name: 'description', content: 'First Solana Web IDE' },
+      {
+        hid: 'description',
+        name: 'description',
+        content: 'First Solana Web IDE',
+      },
       { name: 'format-detection', content: 'telephone=no' },
     ],
     link: [
       { rel: 'icon', type: 'image/x-icon', href: '/favicon.ico' },
       {
-        rel: "stylesheet",
-        href:
-          "https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap"
-      }
-    ]
+        rel: 'stylesheet',
+        href: 'https://fonts.googleapis.com/css?family=Roboto:400,600&display=swap',
+      },
+    ],
   },
 
   // Global CSS: https://go.nuxtjs.dev/config-css
-  css: [
-    './assets/css/app.pcss',
-  ],
+  css: ['./assets/css/app.pcss'],
 
   // Plugins to run before rendering page: https://go.nuxtjs.dev/config-plugins
   plugins: [],
@@ -45,14 +46,19 @@ export default {
     '@nuxtjs/stylelint-module',
     // https://github.com/juliomrqz/nuxt-optimized-images
     '@aceforth/nuxt-optimized-images',
+    '@nuxtjs/google-analytics',
   ],
+
+  googleAnalytics: {
+    id: 'G-7CZ7HB8S73',
+  },
 
   // Modules: https://go.nuxtjs.dev/config-modules
   modules: [
     // https://go.nuxtjs.dev/axios
     '@nuxtjs/axios',
-    ["nuxt-rfg-icon", { masterPicture: "static/favicon.svg" }],
-    "@nuxtjs/manifest",
+    ['nuxt-rfg-icon', { masterPicture: 'static/favicon.svg' }],
+    '@nuxtjs/manifest',
     // https://go.nuxtjs.dev/pwa
     '@nuxtjs/pwa',
     // https://www.npmjs.com/package/@nuxtjs/svg-sprite
@@ -65,8 +71,8 @@ export default {
   // PWA module configuration: https://go.nuxtjs.dev/pwa
   pwa: {
     manifest: {
-      lang: 'en'
-    }
+      lang: 'en',
+    },
   },
 
   // Build Configuration: https://go.nuxtjs.dev/config-build
@@ -81,9 +87,9 @@ export default {
           propList: ['*'],
           minPixelValue: 4,
         },
-        'autoprefixer': {},
-      }
-    }
+        autoprefixer: {},
+      },
+    },
   },
 
   tailwindcss: {
@@ -91,10 +97,10 @@ export default {
   },
 
   optimizedImages: {
-    optimizeImages: true
+    optimizeImages: true,
   },
 
   storybook: {
     // Options
-  }
+  },
 }

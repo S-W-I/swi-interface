@@ -23,8 +23,8 @@
           />
         </nuxt-link>
 
-        <nuxt-link
-          to="https://app.swi.systems"
+        <a
+          href="https://app.swi.systems"
           target="_blank"
           class="
             ml-auto
@@ -40,7 +40,7 @@
           "
         >
           enter the app
-        </nuxt-link>
+        </a>
       </div>
     </header>
 
@@ -426,7 +426,9 @@
             "
           >
             <div class="container">
-              <h2 class="mb-[50px] text-lg font-semibold">Challenges we've run into</h2>
+              <h2 class="mb-[50px] text-lg font-semibold">
+                Challenges we've run into
+              </h2>
 
               <div class="flex flex-col xl:flex-row">
                 <div class="xl:max-w-[519px]">
@@ -547,6 +549,20 @@
               </nav>
 
               <ul class="flex mt-[29px] mx-[-4px] md:mt-0">
+                <li class="mx-[4px]">
+                  <a
+                    target="_blank"
+                    href="mailto:s@swinterface.io"
+                    class="
+                      flex
+                      justify-center
+                      items-center
+                      w-[150px]
+                    "
+                  >
+                    s@swinterface.io
+                  </a>
+                </li>
                 <li class="mx-[4px]">
                   <a
                     target="_blank"
